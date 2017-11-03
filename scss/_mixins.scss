@@ -61,15 +61,15 @@
   background-size: cover;
 }
 @mixin serif-font() {
-  font-family: 'MyMohave', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Mohave', 'Helvetica Neue', Arial, sans-serif;
 }
 
 
 @mixin navbarfont() {
-    font-family: 'MyMohave';
+    font-family: 'Mohave';
     font-weight: semibold;
     font-style: italic;
 }
 @mixin sans-serif-font() {
-  font-family: 'MyMohave', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Mohave', 'Helvetica Neue', Arial, sans-serif;
 }
