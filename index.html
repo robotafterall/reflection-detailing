@@ -11,9 +11,24 @@
     <title>Reflection Detailing</title>
 
     <style>
-            @font-face { font-family: MyMohave;  src: url('fonts/Mohave.otf'); } 
-            @font-face { font-family: MyMohave; font-weight:semibold; font-style:italic; src: url('fonts/Mohave-SemiBold-Italics.otf'); }
-            @font-face { font-family: MyMohave; font-weight:bold; src: url('fonts/Mohave-Bold.otf'); } 
+            @font-face { 
+                font-family: MyMohave;  
+                src: url('fonts/Mohave.otf');
+                src: url('fonts/Mohave.otf') format("opentype"); 
+            } 
+            @font-face { 
+                font-family: MyMohave; 
+                font-weight:semibold; 
+                font-style:italic; 
+                src: url('fonts/Mohave-SemiBold-Italics.otf');
+                src: url('fonts/Mohave-SemiBold-Italics.otf') format("opentype"); 
+            }
+            @font-face { 
+                font-family: MyMohave; 
+                font-weight:bold;
+                src: url('fonts/Mohave-Bold.otf');
+                src: url('fonts/Mohave-Bold.otf') format("opentype"); 
+            } 
     </style>
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
