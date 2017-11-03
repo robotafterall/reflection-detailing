@@ -94,7 +94,3 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $theme-charcoal;
 }
-
-@include font-face(Mohave, fonts/Mohave);
-@include font-face("Mohave Semibold Italic", fonts/Mohave-SemiBold-Italics, semibold, italic);
-@include font-face("Mohave Bold",fonts/Mohave-Bold,bold);
