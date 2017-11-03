@@ -1,0 +1,30 @@
+// Bootstrap overrides for this template
+.text-primary {
+  color: $theme-red !important;
+}
+
+.no-gutter > [class*='col-'] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.btn-default {
+  @include button-variant($theme-charcoal, white, white);
+}
+
+.btn-primary {
+  @include button-variant(white, $theme-red, $theme-red);
+}
+
+.btn {
+  font-weight: bold;
+  font-family: 'Mohave';
+    font-size: 20px;
+  text-transform: uppercase;
+  border-radius: 0px;
+  
+}
+
+.btn-xl {
+  padding: 10px 15px;
+}

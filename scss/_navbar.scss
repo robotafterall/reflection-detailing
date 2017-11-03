@@ -1,0 +1,85 @@
+// Styling for the navbar
+#mainNav {
+  border-color: $theme-black;
+  background-color: $theme-white;
+  color: transparent;
+  @include transition-all;
+  .navbar-brand {
+    img {
+        height: 45px;
+        padding: 10px auto;
+    }
+    visibility: hidden;
+  }
+  .navbar-toggle {
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $theme-black;
+      &:hover {
+          color: $theme-red;
+        }
+  }
+  .navbar-nav {
+    > li.nav-item {
+       > a.nav-link:focus,
+      > a.nav-link {
+        font-size: 20px;
+        @include navbarfont;
+        text-transform: uppercase;
+        color: $theme-black;
+        &:hover {
+          color: $theme-red;
+        }
+        &.active {
+          color: $theme-red !important;
+          background-color: transparent;
+          &:hover {
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+    &.navbar-shrink {
+      border-color: $theme-black;
+      background-color: $theme-white;
+      .navbar-brand {
+        visibility:visible;
+      }
+      .navbar-nav > li.nav-item > a.nav-link,
+      .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: $theme-black;
+        &:hover {
+          color: $theme-red;
+        }
+      }
+    }
+  @media (min-width: 992px) {
+    border-color: $theme-white;
+    background-color: transparent;
+    .navbar-brand {
+        visibility: hidden;
+    }
+    .navbar-nav > li.nav-item > a.nav-link,
+    .navbar-nav > li.nav-item > a.nav-link:focus {
+      color: $theme-black;
+      &:hover {
+        color: $theme-red;
+      }
+    }
+    &.navbar-shrink {
+      border-color: $theme-black;
+      background-color: $theme-white;
+      .navbar-brand {
+        visibility:visible;
+      }
+      .navbar-nav > li.nav-item > a.nav-link,
+      .navbar-nav > li.nav-item > a.nav-link:focus {
+        color: $theme-black;
+        &:hover {
+          color: $theme-red;
+        }
+      }
+    }
+  }
+}

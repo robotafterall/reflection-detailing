@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="230px" height="310px" viewBox="0 0 230 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 43.1 (39012) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="180" height="21"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Icon">
+            <g id="Group-2" transform="translate(12.000000, 12.000000)">
+                <polygon id="Rectangle-2" stroke="#121212" stroke-width="19" fill="#FFFFFF" points="0 0 206 0 169 228.373283 198 285.76001 8 285.76001 37 228.373283"></polygon>
+                <path d="M145.88591,29 L170.100026,39.1578947 L157.187626,116.577525 L138.533025,125.637269 L154.406243,134.422475 L141.814455,222 L116.973367,222 L121.320811,134.97155 L85.2735549,134.97155 L89.8392557,222 L65.3800049,221.99891 L35,29 L145.88591,29 Z M125.006641,52.6693647 L79.3735068,52.6693647 L82.9262948,108.481727 L121.936147,108.481727 L125.006641,52.6693647 Z" id="R" fill="#121212"></path>
+                <g id="R" transform="translate(20.000000, 239.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Mask"></g>
+                    <path d="M153.649877,152.925926 L187.915051,144.614035 L162.196304,81.2639482 L137.797098,73.8506401 L154.635432,66.6619778 L124,-5 L99,-5 L111.289125,66.2126864 L57.6123885,66.2126864 L70.6,-5 L45,-5 L-26.7178547,152.925926 L153.649877,152.925926 Z M121.751658,138.548601 L46.4980784,138.548601 L55.1636507,81.0393025 L113.599528,81.0393025 L121.751658,138.548601 Z" fill="#B5090A" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
