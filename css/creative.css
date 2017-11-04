@@ -30,10 +30,10 @@ a {
 h2 {
   font-family: 'Mohave';
   font-size: 25px;
-  color: #121212; }
+  color: #121212;
+  letter-spacing: 2.4px; }
 
 h1,
-h3,
 h4,
 h5,
 h6 {
@@ -52,13 +52,20 @@ p {
   background-color: #262626 !important; }
 
 .text-faded {
-  color: rgba(255, 255, 255, 0.7); }
+  color: #FFFFFF;
+  font-family: "Bariol";
+  font-size: 20px; }
 
 section {
   padding: 100px 0; }
 
 .section-heading {
-  margin-top: 0; }
+  font-family: "Mohave Bold";
+  font-size: 25px;
+  color: #FFFFFF;
+  margin-top: 0;
+  letter-spacing: 6px;
+  margin-bottom: 30px; }
 
 ::-moz-selection {
   color: white;
@@ -103,6 +110,7 @@ body {
   #mainNav .navbar-nav > li.nav-item > a.nav-link {
     font-size: 20px;
     font-family: 'Mohave Semibold Italic';
+    letter-spacing: 2px;
     text-transform: uppercase;
     color: #121212; }
     #mainNav .navbar-nav > li.nav-item > a.nav-link:focus:hover,
@@ -168,6 +176,7 @@ header.masthead {
     padding: 150px 15px 100px;
     text-align: center; }
     header.masthead .header-content .header-content-inner img {
+      margin-top: 30px;
       width: 80%;
       min-width: 80%;
       margin-bottom: 30px; }
@@ -350,7 +359,8 @@ header.masthead {
   font-family: 'Mohave Bold';
   font-size: 20px;
   text-transform: uppercase;
-  border-radius: 0px; }
+  border-radius: 0px;
+  letter-spacing: 6.3px; }
 
 .btn-xl {
   padding: 10px 15px; }

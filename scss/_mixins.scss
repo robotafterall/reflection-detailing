@@ -67,6 +67,7 @@
 
 @mixin navbarfont() {
     font-family: 'Mohave Semibold Italic';
+    letter-spacing: 2px;
 }
 @mixin sans-serif-font() {
   font-family: 'Mohave', 'Helvetica Neue', Arial, sans-serif;

@@ -32,10 +32,9 @@ h2{
     font-family: 'Mohave';
     font-size: 25px;
     color: $theme-black;
+    letter-spacing: 2.4px;
 }
-
 h1,
-h3,
 h4,
 h5,
 h6 {
@@ -58,7 +57,9 @@ p {
 }
 
 .text-faded {
-  color: fade-out(white, .3);
+  color: $theme-white;
+    font-family: "Bariol";
+    font-size: 20px;
 }
 
 section {
@@ -66,7 +67,12 @@ section {
 }
 
 .section-heading {
+    font-family: "Mohave Bold";
+    font-size: 25px;
+    color: $theme-white;
   margin-top: 0;
+    letter-spacing: 6px;
+    margin-bottom: 30px;
 }
 
 ::-moz-selection {
