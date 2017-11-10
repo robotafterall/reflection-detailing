@@ -41,8 +41,7 @@ h6 {
 
 p {
   font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px; }
+  line-height: 1.5; }
 
 .bg-primary {
   background-color: #B5090A !important; }
@@ -96,7 +95,7 @@ body {
   -moz-transition: all 0.2s;
   transition: all 0.2s; }
   #mainNav .navbar-brand {
-    visibility: hidden; }
+    opacity: 0; }
     #mainNav .navbar-brand img {
       height: 45px;
       padding: 10px auto; }
@@ -127,7 +126,7 @@ body {
     border-color: #121212;
     background-color: #FFFFFF; }
     #mainNav.navbar-shrink .navbar-brand {
-      visibility: visible; }
+      opacity: 1; }
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
     #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
       color: #121212; }
@@ -139,7 +138,7 @@ body {
       border-color: #FFFFFF;
       background-color: transparent; }
       #mainNav .navbar-brand {
-        visibility: hidden; }
+        opacity: 0; }
       #mainNav .navbar-nav > li.nav-item > a.nav-link,
       #mainNav .navbar-nav > li.nav-item > a.nav-link:focus {
         color: #121212; }
@@ -150,7 +149,7 @@ body {
         border-color: #121212;
         background-color: #FFFFFF; }
         #mainNav.navbar-shrink .navbar-brand {
-          visibility: visible; }
+          opacity: 1; }
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link,
         #mainNav.navbar-shrink .navbar-nav > li.nav-item > a.nav-link:focus {
           color: #121212; }
@@ -215,6 +214,29 @@ header.masthead {
             max-width: 80%;
             margin-right: auto;
             margin-left: auto; } }
+
+.aboutservice h3 {
+  color: #FFFFFF;
+  font-family: "Mohave";
+  font-size: 20px;
+  letter-spacing: 2.8px; }
+
+.aboutservice h4 {
+  color: #FFFFFF;
+  font-family: "Bariol Bold";
+  font-size: 18px;
+  padding-top: 5px; }
+
+.aboutservice p {
+  color: #FFFFFF;
+  font-family: "Bariol";
+  font-size: 18px;
+  margin-bottom: 0px; }
+
+.aboutservice div {
+  padding: 15px; }
+  .aboutservice div:hover {
+    background-color: #a60809; }
 
 .service-box {
   max-width: 400px;

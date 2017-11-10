@@ -9,7 +9,7 @@
         height: 45px;
         padding: 10px auto;
     }
-    visibility: hidden;
+    opacity: 0;
   }
   .navbar-toggle {
     font-size: 20px;
@@ -44,7 +44,7 @@
       border-color: $theme-black;
       background-color: $theme-white;
       .navbar-brand {
-        visibility:visible;
+        opacity: 1;
       }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -58,7 +58,7 @@
     border-color: $theme-white;
     background-color: transparent;
     .navbar-brand {
-        visibility: hidden;
+        opacity: 0;
     }
     .navbar-nav > li.nav-item > a.nav-link,
     .navbar-nav > li.nav-item > a.nav-link:focus {
@@ -71,7 +71,7 @@
       border-color: $theme-black;
       background-color: $theme-white;
       .navbar-brand {
-        visibility:visible;
+        opacity: 1;
       }
       .navbar-nav > li.nav-item > a.nav-link,
       .navbar-nav > li.nav-item > a.nav-link:focus {
