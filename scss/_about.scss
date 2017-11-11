@@ -1,0 +1,41 @@
+.aboutservice-container{
+    margin-bottom: 15px;
+}
+
+.aboutservice{
+    h3{
+        color: $theme-white;
+        font-family: "Mohave";
+        font-size: 20px;
+        letter-spacing: 2.8px;
+    }
+    h4{
+        color: $theme-white;
+        font-family: "Bariol Bold";
+        font-size: 18px;
+        margin-top: 7px;
+    }
+    p{
+        color: $theme-white;
+        font-family: "Bariol";
+        font-size: 18px;
+        letter-spacing: 0.34;
+        margin-bottom: 0px;
+    }
+    div{
+        padding: 15px;
+        &:hover{
+            background-color: darken($theme-red, 3);
+        }
+        @media (max-width: 768px) {
+            max-width: 70%;
+            margin: auto;
+        }
+    }
+}
+p.about{
+    letter-spacing: 2.4px;
+    color: $theme-white;
+    font-family: "Bariol";
+    font-size: 18px;
+}

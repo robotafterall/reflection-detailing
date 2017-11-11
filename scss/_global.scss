@@ -28,6 +28,15 @@ a {
   }
 }
 
+a.alternate-red{
+    @include button-variant($theme-white, $theme-red, $theme-red);
+}
+
+a.alternate-charcoal{
+    @include button-variant($theme-white, $theme-charcoal, $theme-charcoal);
+}
+
+
 h2{
     font-family: 'Mohave';
     font-size: 25px;
@@ -44,6 +53,7 @@ h6 {
 p {
   font-size: 16px;
   line-height: 1.5;
+  margin-bottom: 20px;
 }
 
 .bg-primary {
@@ -62,7 +72,31 @@ p {
 }
 
 section {
-  padding: 100px 0;
+  padding: 50px 0;
+}
+section.alternate{
+    background-color: $theme-white;
+    .section-heading{
+        color: $theme-black;
+    }
+    h3{
+        color:$theme-black;
+    }
+    li{
+        color:$theme-black;
+    }
+    li.bold{
+        color:$theme-black;
+    }
+    .price-type{
+        color:$theme-black;
+    }
+    .price-cost{
+        color:$theme-black;
+    }
+}
+section.alternate-charcoal{
+    background-color: $theme-charcoal;
 }
 
 .section-heading {

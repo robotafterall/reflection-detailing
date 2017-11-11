@@ -66,30 +66,3 @@ header.masthead {
         }
     }
 }
-
-.aboutservice{
-    h3{
-        color: $theme-white;
-        font-family: "Mohave";
-        font-size: 20px;
-        letter-spacing: 2.8px;
-    }
-    h4{
-        color: $theme-white;
-        font-family: "Bariol Bold";
-        font-size: 18px;
-        padding-top: 5px;
-    }
-    p{
-        color: $theme-white;
-        font-family: "Bariol";
-        font-size: 18px;
-          margin-bottom: 0px;
-    }
-    div{
-        padding: 15px;
-        &:hover{
-        background-color: darken($theme-red, 3);
-        }
-    }
-}
