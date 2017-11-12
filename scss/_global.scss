@@ -90,9 +90,18 @@ section.alternate{
     }
     .price-type{
         color:$theme-black;
+        a{
+            color: $theme-black;
+        }
     }
     .price-cost{
         color:$theme-black;
+    }
+    p{
+        color:$theme-black;
+    }
+    .price-red{
+        color:$theme-red;
     }
 }
 section.alternate-charcoal{

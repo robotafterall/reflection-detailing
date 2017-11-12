@@ -1,0 +1,32 @@
+.contact{
+    .contact-container{
+        margin-bottom: 30px;
+    }
+    p,span,a{
+        color: $theme-white;
+        font-family: "Bariol";
+        font-size: 20px;
+    }
+    i{
+        color: $theme-white;
+        font-size: 25px;
+    }
+    .row{
+        @media(min-width:768px){
+            margin-left: 100px;
+            margin-right:100px;
+        }
+    }
+    .fa{
+        vertical-align:middle;
+    }
+    h2{
+        margin-bottom: 20px;
+    }
+    .contact-sub{
+        @media(min-width:768px){
+            width: 80%;
+            margin: auto;
+        }
+    }
+}

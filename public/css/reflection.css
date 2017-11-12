@@ -412,6 +412,8 @@ p.about {
   border-width: 3px;
   border-style: solid;
   height: auto; }
+  .combo-item-red .price-cost .savings {
+    color: #B5090A; }
 
 .service-container {
   padding-bottom: 20px; }
@@ -452,6 +454,9 @@ p.about {
   .call-to-action h2 {
     margin: 0 auto 20px; }
 
+.contact .contact-container {
+  margin-bottom: 30px; }
+
 .contact p, .contact span, .contact a {
   color: #FFFFFF;
   font-family: "Bariol";
@@ -465,6 +470,17 @@ p.about {
   .contact .row {
     margin-left: 100px;
     margin-right: 100px; } }
+
+.contact .fa {
+  vertical-align: middle; }
+
+.contact h2 {
+  margin-bottom: 20px; }
+
+@media (min-width: 768px) {
+  .contact .contact-sub {
+    width: 80%;
+    margin: auto; } }
 
 .text-primary {
   color: #B5090A !important; }

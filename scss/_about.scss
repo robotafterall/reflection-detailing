@@ -1,11 +1,11 @@
 .aboutservice-container{
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 .aboutservice{
     h3{
         color: $theme-white;
-        font-family: "Mohave";
+        font-family: "Mohave Bold";
         font-size: 20px;
         letter-spacing: 2.8px;
     }
@@ -13,7 +13,7 @@
         color: $theme-white;
         font-family: "Bariol Bold";
         font-size: 18px;
-        margin-top: 7px;
+        padding-top: 7px;
     }
     p{
         color: $theme-white;
@@ -27,11 +27,10 @@
         &:hover{
             background-color: darken($theme-red, 3);
         }
-        @media (max-width: 768px) {
-            max-width: 70%;
-            margin: auto;
-        }
+        max-width: 300px;
+        margin: auto;
     }
+    
 }
 p.about{
     letter-spacing: 2.4px;

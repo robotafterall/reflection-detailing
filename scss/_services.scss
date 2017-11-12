@@ -2,7 +2,7 @@
     padding: 15px;
     h3{
         color: $theme-white;
-        font-family: "Mohave";
+        font-family: "Mohave Bold";
         font-size: 20px;
         letter-spacing: 2.8px;
         margin-bottom: 7px;
@@ -36,28 +36,57 @@
     .price-type{
         color:$theme-white;
         float: left;
+        font-size: 18px;
         font-family: "Bariol Bold";
+        a{
+            text-decoration: underline;
+            color: $theme-white;
+        }
     }
     .price-cost{
         color:$theme-white;
         float: right;
         text-align: right;
+        font-size: 18px;
         font-family: "Bariol Bold";
         .savings{
             color:$theme-blue;
         }
     }
-    @media (max-width: 768px) {
-        max-width: 75%;
-        margin: auto;
+    .price-red{
+        color:$theme-red;
     }
     height: 100%;
+    max-width: 350px;
+    margin: auto;
 }
 
+.service-big{
+    max-width: 650px;
+}
 
+.combo-item{
+    border-color: $theme-blue;
+    border-width: 3px;
+    border-style: solid;
+    height: auto;
+
+}
+.combo-item-red{
+    border-color: $theme-red;
+    border-width: 3px;
+    border-style: solid;
+    height: auto;
+    .price-cost{
+        .savings{
+            color:$theme-red;
+        }
+    }
+
+}
 
 .service-container{
-    
+
     @media (min-width: 768px) {
         padding-left: 100px;
         padding-right: 100px;
@@ -69,6 +98,34 @@
     @media (min-width: 768px) {
         padding-left: 150px;
         padding-right: 150px;
+    }
+}
+
+
+
+.modal-body{
+    .row{
+        font-family: "Bariol";
+        font-size: 20;
+        color: $theme-black;
+    }
+    p{
+        font-family: "Bariol Bold";
+        font-size: 20;
+        color: $theme-black;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+
+.modal-dialog {
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    @media(max-width: 768px) {
+        min-height: calc(100vh - 20px);
     }
 }
 
